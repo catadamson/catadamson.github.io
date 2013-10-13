@@ -5,22 +5,20 @@
 }
  
 header {
-    background-color: #8C8878;
+    background-color: #ffffff;
     color: #ffffff;
     height: 84px;
 }
 
 header h1 {
     float: left;
-    font-family: helvetica, georgia, sans-serif;
-    font-size: 44px;
-    font-weight: 500;
-    padding: 18px;20px;20px
+    padding: 10px
 }
 
 nav {
     float:right;
-    padding:38px;
+    margin-bottom:10px;
+    margin-top:10px;
 }
 
 nav a {
@@ -28,7 +26,8 @@ nav a {
     font-size: 16px;
     line-height: 24px;
     text-align:right; 
-    color: #ffffff;
+    color: #000000;
+    padding:5px;
 }
  
 nav a:link {
@@ -43,10 +42,43 @@ nav a:hover {
     color:#787874;
 }
 
-article p{
-    font-family: helvetica;
-    float:left;
-    padding:10px;20px;20px;
+#colorstrip {
+    width: 100%;
+    margin: 0 auto;
+    background: #f4c9d3;
+    height: 2px;
+}
+
+div {
+        width: 400px;
+}
+
+article{
+    padding:10px;
+}
+
+article em {
+    font-family:georgia;
+    font-size:14px;
+    color:#404147;
+    text-align:left;
+    padding:8px
+}
+
+article p {
+    font-family: arial;
+    text-align:left;
+    padding:8px;
+    color:#60626B;
+    font-size:14px;
+}
+
+article h2 {
+    color:#404147;
+    text-align:left;
+    font-size:14px;
+    font-family:helvetica;
+    padding:8px;
 }
 
 footer {

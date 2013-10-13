@@ -5,22 +5,20 @@
 }
  
 header {
-    background-color: #8C8878;
+    background-color: #ffffff;
     color: #ffffff;
     height: 84px;
 }
 
 header h1 {
     float: left;
-    font-family: helvetica, georgia, sans-serif;
-    font-size: 44px;
-    font-weight: 500;
-    padding: 18px;20px;20px
+    padding: 10px;
 }
 
 nav {
     float:right;
-    padding:38px;
+    margin-bottom:10px;
+    margin-top:10px;
 }
 
 nav a {
@@ -28,27 +26,47 @@ nav a {
     font-size: 16px;
     line-height: 24px;
     text-align:right; 
-    color: #ffffff;
+    color: #000000;
+    padding:5px
 }
  
 nav a:link {
     text-decoration: none;
 }
 
-nav a: visited {
-    color: #787874;
-}
-
 nav a:hover {
     color:#787874;
 }
 
-article p{
-    font-family: helvetica;
-    float:left;
-    padding:10px;20px;20px;
+#colorstrip {
+    width: 100%;
+    margin: 0 auto;
+    background: #f4c9d3;
+    height: 2px;
 }
 
+
+div p {
+    font-family: arial;
+    padding-top:250px;
+    padding-left:18px;
+    font-size:14px;
+    color:#60626B;
+    line-height:1.5;
+    text-align:justify;
+    width:300px;
+}
+
+p a:link{
+    text-decoration:none;
+    color:#f58ea3;
+}
+
+div img {
+    float:right;
+    padding-top:0px;
+    width:350px;
+}
 footer {
     font-size 12px;
     padding: 0 10px 0 10px;
