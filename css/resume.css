@@ -51,11 +51,11 @@ nav a:hover {
 
 div img{
     float:left;
+    margin-bottom:100;
 }
 
 div {
         width: 500px;
-        margin-left:100px;
 }
 
 article{
