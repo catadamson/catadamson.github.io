@@ -50,7 +50,8 @@ nav a:hover {
 }
 
 div {
-        width: 400px;
+        width: 500px;
+        margin-left:100px;
 }
 
 article{
@@ -79,6 +80,16 @@ article h2 {
     font-size:14px;
     font-family:helvetica;
     padding:8px;
+}
+
+li {
+    color:#60626B;
+    text-indent:50px;
+    
+}
+
+ul {
+overflow: auto;
 }
 
 footer {
