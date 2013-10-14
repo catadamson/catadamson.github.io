@@ -6,7 +6,6 @@
  
 header {
     background-color: #ffffff;
-    color: #ffffff;
     height: 84px;
 }
 
@@ -17,23 +16,12 @@ header h1 {
 
 nav {
     float:right;
-    margin-bottom:10px;
-    margin-top:10px;
+    margin-bottom:0px;
+    margin-top:20px;
 }
 
 nav a {
-    font-family: georgia serif;
-    font-size: 16px;
-    line-height: 24px; 
-    color: #000000;
-}
- 
-nav a:link {
-    text-decoration: none;
-}
-
-nav a:hover {
-    color:#787874;
+   padding:5px;
 }
 
 #colorstrip {
@@ -62,6 +50,9 @@ div p{
 
 div img {
     padding-top:0px;
+    width:500px;
+    padding-top:20px;
+    padding-right:20px;
 }
 
 footer {
