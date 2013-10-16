@@ -32,6 +32,36 @@ nav a {
     height: 2px;
 }
 
+#education {
+    display: table;
+    vertical-align: middle;
+    width:10%;
+}
+
+#awards {
+      display: table;
+    vertical-align: middle;
+    width:10%;
+}
+
+#media {
+     display: table;
+    vertical-align: middle;
+    width:10%;
+}
+
+#additional {
+     display: table;
+    vertical-align: middle;
+    width:10%;
+}
+
+#skills {
+     display: table;
+    vertical-align: middle;
+    width:10%;
+}
+
 div img{
     float:left;
     padding-bottom:50px;
