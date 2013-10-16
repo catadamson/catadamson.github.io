@@ -36,24 +36,28 @@ nav a {
     display: table;
     vertical-align: middle;
     width:10%;
+    height:130px;
 }
 
 #awards {
       display: table;
     vertical-align: middle;
     width:10%;
+    height:190px;
 }
 
 #media {
      display: table;
     vertical-align: middle;
     width:10%;
+    height:570px;
 }
 
 #additional {
      display: table;
     vertical-align: middle;
     width:10%;
+    height:290px;
 }
 
 #skills {
@@ -67,23 +71,19 @@ div img{
     padding-bottom:50px;
 }
 
-div {
-        width: 500px;
+
+#text { display: table;
+    vertical-align: middle;
+    width:%;
 }
+
 
 article{
     padding:10px;
 }
 
-article em {
-    font-family:georgia;
-    font-size:14px;
-    color:#404147;
-    text-align:left;
-    padding:8px
-}
 
-article p {
+div p {
     font-family: arial;
     text-align:left;
     padding:8px;
@@ -91,7 +91,7 @@ article p {
     font-size:14px;
 }
 
-article h2 {
+div h2 {
     color:#404147;
     text-align:left;
     font-size:14px;
