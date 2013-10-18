@@ -32,64 +32,37 @@ nav a {
     height: 2px;
 }
 
-#education {
-    display: table;
-    vertical-align: middle;
-    width:10%;
-    height:130px;
-}
-
-#awards {
-      display: table;
-    vertical-align: middle;
-    width:10%;
-    height:190px;
-}
-
-#media {
-     display: table;
-    vertical-align: middle;
-    width:10%;
-    height:570px;
-}
-
-#additional {
-     display: table;
-    vertical-align: middle;
-    width:10%;
-    height:290px;
-}
-
-#skills {
-     display: table;
-    vertical-align: middle;
-    width:10%;
-}
-
-div img{
+.image{
     float:left;
-    padding-bottom:50px;
+    width: 70px;
+    margin-right: 20px;
+    height:text height;
+    
 }
 
-
-#text { display: table;
-    vertical-align: middle;
-    width:%;
+.text{
+    width:auto;
+    margin-left:90px;
 }
 
+div p{
+    font-family: arial;
+    text-align:left;
+    padding:8px;
+    color:#60626B;
+    font-size:14px;
+    line-height:1.5;
+}
+
+.clearer{
+     clear:both;
+}
 
 article{
     padding:10px;
 }
 
 
-div p {
-    font-family: arial;
-    text-align:left;
-    padding:8px;
-    color:#60626B;
-    font-size:14px;
-}
 
 div h2 {
     color:#404147;
@@ -101,13 +74,12 @@ div h2 {
 
 li {
     color:#60626B;
-    text-indent:50px;
-    
-}
-
-ul {
-overflow: auto;
-}
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 0px 0px 0px 60px;
+    text-indent: -1em;
+    line-height:1.5;
+    }
 
 footer {
     font-size 12px;
