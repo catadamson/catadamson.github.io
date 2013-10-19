@@ -39,16 +39,27 @@ nav a:hover {
     height: 2px;
 }
 
+.page{
+    width:100%;
+    overflow:hidden;
+    padding-left:5px;
+}
 
-div p {
-    font-family: arial;
-    padding-top:250px;
-    padding-left:18px;
-    font-size:14px;
-    color:#60626B;
-    line-height:1.5;
-    text-align:justify;
+.email{
     width:300px;
+    float:left;
+    font-family:arial;
+    color:#60626B;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-top:200px;
+    padding-left:10px;
+}
+
+.takecare{
+    margin-left:350px;
+    width:400px;
+    padding-top:60px;
 }
 
 p a:link{
@@ -56,11 +67,12 @@ p a:link{
     color:#f58ea3;
 }
 
-div img {
-    float:right;
-    padding-top:0px;
-    width:350px;
+div p{
+    padding-bottom:5px;
 }
+
+
+
 footer {
     font-size 12px;
     padding: 0 10px 0 10px;

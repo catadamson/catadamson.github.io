@@ -31,29 +31,37 @@ nav a {
     height: 2px;
 }
 
-div{
+.page{
+    width:100%;
+    overflow:hidden;
     padding-left:5px;
     padding-right:0px;
 }
 
-div p {
+.info{
+    width:300px;
+    float:left;
     font-family:arial;
     color:#60626B;
     font-size: 14px;
     width: 300px;
     line-height: 1.5;
-}
-
-div p{
     padding:5px;
 }
 
-div img {
+div p{
+    padding-bottom:5px;
+}
+
+.picture{
+    margin-left:620px;
     padding-top:0px;
     width:500px;
     padding-top:20px;
     padding-right:20px;
 }
+
+
 
 footer {
     font-size 12px;
