@@ -100,7 +100,6 @@ p a:link{
     float:left;
     width: 70px;
     margin-right: 20px;
-    height:text height;
     
 }
 
@@ -146,6 +145,5 @@ li {
     }
 
 footer {
-    font-size 12px;
     padding: 0 10px 0 10px;
 }
