@@ -143,6 +143,9 @@ li {
     text-indent: -1em;
     line-height:1.5;
     }
+a:visited{
+    color:#f58ea3;
+}
 
 footer {
     padding: 0 10px 0 10px;
