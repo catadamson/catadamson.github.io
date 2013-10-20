@@ -52,12 +52,11 @@ nav a {
 }
 
 .info{
-    width:300px;
+    width:500px;
     float:left;
     font-family:arial;
     color:#60626B;
     font-size: 14px;
-    width: 300px;
     line-height: 1.5;
     padding:5px;
 }
