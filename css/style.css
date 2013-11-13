@@ -149,3 +149,40 @@ a:visited{
 footer {
     padding: 0 10px 0 10px;
 }
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        padding: 3%
+     }
+    
+    h1, h2 {
+        text-align: center;
+    }
+    
+    nav{
+        width: 100%;
+    }
+     
+    #content {
+        width: 100%;
+        clear: left;
+        margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
