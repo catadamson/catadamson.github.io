@@ -80,12 +80,15 @@ div p{
     color:#60626B;
     font-size: 14px;
     line-height: 1.5;
-    padding:0px;
+    padding-right:0px;
+    padding-top:50px;
 }
 
 .takecare{
     float:right;
-}
+    padding-right:0;
+    padding-left:0px;
+    padding-top:50px}
 
 p a:link{
     text-decoration:none;
@@ -165,6 +168,7 @@ footer {
     .takecare{
         float:none;
         width:100%;
+        padding:0;
     }
     
     .email {
