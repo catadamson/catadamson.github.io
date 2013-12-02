@@ -74,20 +74,17 @@ div p{
 
 
 .email{
-    width:300px;
+    width:50%;
     float:left;
     font-family:arial;
     color:#60626B;
     font-size: 14px;
     line-height: 1.5;
-    padding-top:200px;
-    padding-left:10px;
+    padding:0px;
 }
 
 .takecare{
-    margin-left:350px;
-    width:400px;
-    padding-top:60px;
+    float:right;
 }
 
 p a:link{
@@ -165,6 +162,14 @@ footer {
     .info {
         width:100%;}
     
+    .takecare{
+        float:none;
+        width:100%;
+    }
+    
+    .email {
+        width:100%;}
+    
     nav a {
    padding:5px;
 }
@@ -197,13 +202,6 @@ footer {
         clear: left;
         margin-left: 0;
 }
-
-
-
-
-
-
-
 
 
 
