@@ -134,6 +134,12 @@ div h2 {
     padding:8px;
 }
 
+div h3 {
+    padding:8px;
+    font-family: arial;
+    font-size:16px;
+}
+
 li {
     color:#60626B;
     list-style-type: disc;
@@ -144,6 +150,14 @@ li {
     }
 a:visited{
     color:#f58ea3;
+}
+
+.work{
+    font-family:arial;
+    color:#60626B;
+    font-size: 14px;
+    line-height: 1.5;
+    padding:0px;
 }
 
 footer {
