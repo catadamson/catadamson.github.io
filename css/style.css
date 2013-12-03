@@ -38,14 +38,36 @@ nav a {
 #name{
     padding-top:100px;
     text-align:center;
+    border:0;
 }
 
 #logo{
     text-align:center;
+    border:0;
 }
 
 #enter{
     text-align:center;
+    border:0;
+}
+
+.takecare{
+    float:right;
+    padding-right:0;
+    padding-left:0px;
+    border:0;
+}
+
+.cat{
+    float:right;
+    border:0;
+}
+
+.image{
+    float:left;
+    width: 70px;
+    margin-right: 20px;
+    border:0;
 }
 
 .page{
@@ -65,14 +87,6 @@ nav a {
     padding:0px;
 }
 
-.cat{
-    float:right;}
-
-div p{
-    padding-bottom:5px;
-}
-
-
 .email{
     width:50%;
     float:left;
@@ -84,27 +98,26 @@ div p{
     padding-top:50px;
 }
 
-.takecare{
-    float:right;
-    padding-right:0;
-    padding-left:0px;
-    padding-top:50px}
+.text{
+    width:auto;
+    margin-left:90px;
+}
+
+.work{
+    font-family:arial;
+    color:#60626B;
+    font-size: 14px;
+    line-height: 1.5;
+    padding:0px;
+}
+
+article{
+    padding:10px;
+}
 
 p a:link{
     text-decoration:none;
     color:#f58ea3;
-}
-
-.image{
-    float:left;
-    width: 70px;
-    margin-right: 20px;
-    
-}
-
-.text{
-    width:auto;
-    margin-left:90px;
 }
 
 div p{
@@ -114,17 +127,8 @@ div p{
     color:#60626B;
     font-size:14px;
     line-height:1.5;
+    padding-bottom:5px;
 }
-
-.clearer{
-     clear:both;
-}
-
-article{
-    padding:10px;
-}
-
-
 
 div h2 {
     color:#404147;
@@ -148,16 +152,13 @@ li {
     text-indent: -1em;
     line-height:1.5;
     }
+
 a:visited{
     color:#f58ea3;
 }
 
-.work{
-    font-family:arial;
-    color:#60626B;
-    font-size: 14px;
-    line-height: 1.5;
-    padding:0px;
+.clearer{
+     clear:both;
 }
 
 footer {
