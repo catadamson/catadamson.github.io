@@ -172,62 +172,60 @@ footer {
 
 }
 
-
-        
-
 @media screen and (max-width: 600px) {
         
-        .cat {
+    .cat {
         float:none;
         width:100%;
-    
-    }
-    
-    .info {
-        width:100%;}
-    
-    .takecare{
-        float:none;
-        width:100%;
-        padding:0;
-    }
-    
-    .email {
-        width:100%;}
-    
-    nav a {
-   padding:5px;
-}
-
-.clearer{
-     clear:both;
-}
-
-#colorstrip {
-    width: 100%;
-    margin: 0 auto;
-    background: #f4c9d3;
-    height: 2px;
-}
-    
-    body {
-        padding: 3%
      }
+    
+    #logo {
+        float:none;
+        width: 100%;
+    }
     
     h1, h2 {
         text-align: center;
     }
     
-    nav{
-        width: 100%;
+    .info {
+        width:100%;
     }
-     
+    
+    .email {
+        width:100%;
+    }
+    
     #content {
         width: 100%;
         clear: left;
         margin-left: 0;
-}
+    }
+    
+    nav{
+        width: 100%;
+    }
 
+    nav a {
+        padding:5px;
+    }
+
+    .clearer{
+        clear:both;
+    }
+
+    #colorstrip {
+        width: 100%;
+        margin: 0 auto;
+        background: #f4c9d3;
+        height: 2px;
+    }
+    
+    
+    
+     
+    
+    
 
 
 
